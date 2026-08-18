@@ -1,0 +1,5 @@
+# Foundry Local pip paketi değildir; scripts/install_foundry_macos.sh ile kurulur.
+numpy>=1.26,<3
+foundry-local-sdk>=1.2,<2
+streamlit>=1.37
+PyYAML>=6.0

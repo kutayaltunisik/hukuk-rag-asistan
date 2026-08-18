@@ -1,0 +1,214 @@
+# Değerlendirme seti: TBK'da cevabı olan sorular + kapsam dışı sorular.
+
+meta:
+  korpus: "Türk Borçlar Kanunu (6098)"
+  kisaltma: "TBK"
+  olusturma_notu: TBK 6098 maddelerine göre hazırlandı.
+
+sorular:
+  # ---------------------------------------------------------------- Genel hükümler
+  - id: q01
+    soru: "Genel zamanaşımı süresi kaç yıldır?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["146"]
+    konu: "zamanaşımı"
+
+  - id: q02
+    soru: "Ahlaka ve kamu düzenine aykırı bir sözleşme geçerli midir?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["27"]
+    konu: "kesin hükümsüzlük"
+
+  - id: q03
+    soru: "Taraflar sözleşmenin içeriğini serbestçe belirleyebilir mi?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["26"]
+    konu: "sözleşme özgürlüğü"
+
+  - id: q04
+    soru: "Edimler arasında açık oransızlık varsa zarar gören ne yapabilir?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["28"]
+    konu: "aşırı yararlanma (gabin)"
+
+  - id: q05
+    soru: "Sözleşme nasıl kurulur?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["1"]
+    konu: "sözleşmenin kurulması"
+
+  - id: q06
+    soru: "Borcun ifa yeri nasıl belirlenir?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["89"]
+    konu: "ifa yeri"
+
+  - id: q07
+    soru: "Sözleşmede kararlaştırılmamışsa temerrüt faizi oranı ne olur?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["120"]
+    konu: "temerrüt faizi"
+
+  - id: q08
+    soru: "Takas nasıl yapılır, koşulları nelerdir?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["139"]
+    konu: "takas"
+
+  - id: q09
+    soru: "Alacağın devri hangi şekilde yapılmalıdır?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["184"]
+    konu: "alacağın devri şekli"
+
+  - id: q10
+    soru: "Müteselsil borçlulukta alacaklı borcun tamamını kimden isteyebilir?"
+    tur: cevaplanabilir
+    # m. 163 sorunun doğrudan cevabıdır ("dilerse hepsinden, dilerse birinden").
+    # m. 162 müteselsil borçluluğun NASIL DOĞDUĞUNU düzenler; kabul edilebilir
+    # yan dayanak olarak listede tutulur, asıl etiket 163'tür.
+    beklenen_maddeler: ["163", "162"]
+    konu: "müteselsil borçluluk"
+
+  # ---------------------------------------------------------------- Haksız fiil
+  - id: q11
+    soru: "Haksız fiilden doğan tazminat isteminde zamanaşımı ne kadardır?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["72"]
+    konu: "haksız fiil zamanaşımı"
+
+  - id: q12
+    soru: "Çalışanının verdiği zarardan işveren sorumlu olur mu?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["66"]
+    konu: "adam çalıştıranın sorumluluğu"
+
+  - id: q13
+    soru: "Binadan düşen parçanın verdiği zarardan kim sorumludur?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["69"]
+    konu: "yapı malikinin sorumluluğu"
+
+  - id: q14
+    soru: "Bedensel bütünlüğü zedelenen kişi manevi tazminat isteyebilir mi?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["56"]
+    konu: "manevi tazminat"
+
+  - id: q15
+    soru: "Haklı bir sebep olmadan başkasının malvarlığından zenginleşen ne yapmak zorundadır?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["77"]
+    konu: "sebepsiz zenginleşme"
+
+  # ---------------------------------------------------------------- Kira
+  - id: q16
+    soru: "Kira bedelindeki artış oranının üst sınırı nedir?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["344"]
+    konu: "kira bedelinin belirlenmesi"
+
+  - id: q17
+    soru: "Kiracı kira bedelini ödemezse kiraya veren ne yapabilir?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["315"]
+    konu: "kiracının temerrüdü"
+
+  - id: q18
+    soru: "Kiraya veren konut ihtiyacı nedeniyle kiracıyı çıkarabilir mi?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["350"]
+    konu: "gereksinim nedeniyle tahliye"
+
+  - id: q19
+    soru: "Konut kirasında kiracıdan depozito istenebilir mi, sınırı var mı?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["342"]
+    konu: "kiracının güvence vermesi"
+
+  - id: q20
+    soru: "Kiracı kiraladığı yeri başkasına kiraya verebilir mi?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["322", "366"]
+    konu: "alt kira"
+
+  - id: q21
+    soru: "Kiracının kiralananı kullanırken yükümlülükleri nelerdir?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["316"]
+    konu: "özenle kullanma"
+
+  # ------------------------------------------------- Hizmet, vekâlet, kefalet
+  - id: q22
+    soru: "İşveren hizmet sözleşmesini haklı sebep olmadan derhal feshederse işçi ne isteyebilir?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["438"]
+    konu: "haksız derhal fesih"
+
+  - id: q23
+    soru: "Vekâlet sözleşmesi tek taraflı olarak sona erdirilebilir mi?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["512"]
+    konu: "vekâletten azil / istifa"
+
+  - id: q24
+    soru: "Kefalet sözleşmesi geçerli olması için hangi şekilde yapılmalıdır?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["583"]
+    konu: "kefalette şekil"
+
+  - id: q25
+    soru: "Evli bir kişinin kefil olması için eşinin rızası gerekir mi?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["584"]
+    konu: "kefalette eşin rızası"
+
+  - id: q26
+    soru: "Bağışlayan yaptığı bağışlamayı geri alabilir mi?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["295"]
+    konu: "bağışlamanın geri alınması"
+
+  # ---------------------------------------------------- Doğrudan madde atfı
+  - id: q27
+    soru: "TBK 344 ne diyor?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["344"]
+    konu: "madde numarasıyla erişim"
+
+  - id: q28
+    soru: "Türk Borçlar Kanunu'nun 27. maddesi neyi düzenler?"
+    tur: cevaplanabilir
+    beklenen_maddeler: ["27"]
+    konu: "madde numarasıyla erişim"
+
+  # ------------------------------------------------------------- Kapsam dışı
+  - id: q29
+    soru: "Hırsızlık suçunun cezası kaç yıldır?"
+    tur: kapsam_disi
+    konu: "Türk Ceza Kanunu — korpusta yok"
+
+  - id: q30
+    soru: "Boşanmada mal paylaşımı nasıl yapılır?"
+    tur: kapsam_disi
+    konu: "Türk Medenî Kanunu — korpusta yok"
+
+  - id: q31
+    soru: "İdari işleme karşı dava açma süresi kaç gündür?"
+    tur: kapsam_disi
+    konu: "İdari yargı usulü — korpusta yok"
+
+  - id: q32
+    soru: "Katma değer vergisinin genel oranı yüzde kaçtır?"
+    tur: kapsam_disi
+    konu: "Vergi mevzuatı — korpusta yok"
+
+  - id: q33
+    soru: "Bir şirketin genel kurulu nasıl toplanır?"
+    tur: kapsam_disi
+    konu: "Türk Ticaret Kanunu — korpusta yok"
+
+  - id: q34
+    soru: "Bugün hava nasıl olacak?"
+    tur: kapsam_disi
+    konu: "hukukla ilgisiz — sistem reddetmeli"

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Proje verileri
+.tmp/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+db/*.db
+db/*.db-journal
+db/*.db-wal
+db/*.db-shm
+
+# Raporlar (calistirinca uretilir)
+reports/*.json
+reports/*.md
+reports/*.txt
+!reports/.gitkeep
+
+# macOS
+.DS_Store
